@@ -10,5 +10,5 @@ following stuff:
 
 #### Screenshots
 ![Junit test script](https://github.com/Tanas-IT/math-util-mvn/blob/main/screenshots/test%20script%20with%20junit.png)
-##### Copyright&#169; 2023 Tanas | phuoctan020^@gmail.com
+##### Copyright&#169; 2023 Tanas | phuoctan0206@gmail.com
 
