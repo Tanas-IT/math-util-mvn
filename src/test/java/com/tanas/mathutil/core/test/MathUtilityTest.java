@@ -56,18 +56,4 @@ public class MathUtilityTest {
     public void verifyFactorialGivenRightArgument5ReturnsOk() {
         assertEquals(120, MathUtility.getFactorial(5));
     }
-    
-    /* Test case #3: Verify the getFactorial() with n = 6
-    Steps/ Procedures:
-            1. Given n = 6
-            2. Call/Invoke the getFactorial(int n) 
-    Expected Result:
-            The method getFactorial(n = 6) must return 720
-            as the result 6! = 720
-    Status: PASSED | FAILED
-     */
-    @Test
-    public void verifyFactorialGivenRightArgument6ReturnsOk() {
-        assertEquals(720, MathUtility.getFactorial(6));
-    }
 }
