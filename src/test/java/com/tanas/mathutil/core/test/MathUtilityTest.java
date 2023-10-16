@@ -45,6 +45,20 @@ public class MathUtilityTest {
 
     /* Test case #3: Verify the getFactorial() with n = 6
     Steps/ Procedures:
+            1. Given n = 5
+            2. Call/Invoke the getFactorial(int n) 
+    Expected Result:
+            The method getFactorial(n = 5) must return 120
+            as the result 5! = 120
+    Status: PASSED | FAILED
+     */
+    @Test
+    public void verifyFactorialGivenRightArgument5ReturnsOk() {
+        assertEquals(120, MathUtility.getFactorial(5));
+    }
+    
+    /* Test case #3: Verify the getFactorial() with n = 6
+    Steps/ Procedures:
             1. Given n = 6
             2. Call/Invoke the getFactorial(int n) 
     Expected Result:
@@ -53,8 +67,7 @@ public class MathUtilityTest {
     Status: PASSED | FAILED
      */
     @Test
-    public void verifyFactorialGivenRightArgument5ReturnsOk() {
-        assertEquals(120, MathUtility.getFactorial(5));
+    public void verifyFactorialGivenRightArgument6ReturnsOk() {
+        assertEquals(720, MathUtility.getFactorial(6));
     }
-
 }

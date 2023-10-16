@@ -33,7 +33,7 @@ public class MathUtility {
         }
         // sống sót đến chỗ này, sure n = 2....20. Vì nếu không chết dọc đường ở 2 cụm if ở trên rồi
         // không cần else nếu trước đó xái RETURN
-        long result = 1; //giai thừa khởi đầu là 1 
+        long result = 10; //giai thừa khởi đầu là 1 
         // nhân dồn 2 3 4 5.... n vào biến này thì thành n!
         for (int i = 2; i <= n; i++) {
             result *= i;
